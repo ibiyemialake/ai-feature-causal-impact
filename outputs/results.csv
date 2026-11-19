@@ -1,0 +1,5 @@
+method,estimate_pp,ci_low_pp,ci_high_pp,error_pp,note
+"Naive (post-launch, treated vs not)",9.71,,,5.71,
+Difference-in-differences,4.31,2.27,6.35,0.31,pre-trend slope p = 0.06
+Propensity score matching,4.5,2.95,5.76,0.5,"1,225 of 1,225 treated accounts matched, max |SMD| after = 0.04"
+Synthetic control,6.08,,,2.08,"pre-launch RMSE = 0.0185, placebo p = 0.45, 6 donor regions used"
